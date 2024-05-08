@@ -150,6 +150,14 @@
       "route": "/api/AddSpamfilter",
       "allowedRoles": ["admin"]
     },    
+    {      
+      "route": "/api/RemoveScheduledItem",
+      "allowedRoles": ["admin"]
+    },   
+    {      
+      "route": "/api/AddScheduledItem",
+      "allowedRoles": ["admin"]
+    },   
     {
       "route": "/LogoutRedirect",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
