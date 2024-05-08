@@ -23,11 +23,39 @@
       "redirect": "/.auth/logout?post_logout_redirect_uri=/LogoutRedirect"
     },
     {
+      "route": "/endpoint/applications/*",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/endpoint/autopilot/add-profile",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/endpoint/autopilot/add-status-page",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/endpoint/MEM/*",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/email/transport/deploy-rules",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/email/connectors/deploy-connector",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/api/ExecSAMSetup",
       "allowedRoles": ["admin"]
     },
     {
       "route": "/api/AddStandardsDeploy",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/email/spamfilter/deploy",
       "allowedRoles": ["admin"]
     },
     {
@@ -53,6 +81,14 @@
     {
       "route": "/api/ExecSendPush",
       "allowedRoles": ["admin", "editor", "readonly"]
+    },
+    {
+      "route": "/tenant/conditional/deploy",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/tenant/conditional/deploy-named-location",
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/api/ExecExcludeTenant",
