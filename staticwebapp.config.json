@@ -23,39 +23,79 @@
       "redirect": "/.auth/logout?post_logout_redirect_uri=/LogoutRedirect"
     },
     {
-      "route": "/endpoint/applications/*",
+      "route": "/api/AddCAPolicy",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/endpoint/autopilot/add-profile",
+      "route": "/api/AddNamedLocation",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/endpoint/autopilot/add-status-page",
+      "route": "/api/AddAlert",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/endpoint/MEM/*",
+      "route": "/api/RemoveWebhookAlert",
+      "allowedRoles": ["admin"]
+    },
+   {
+      "route": "/api/RemoveQueuedAlert",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/email/transport/deploy-rules",
+      "route": "/api/ExecStandardsRun",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/email/connectors/deploy-connector",
+      "route": "/api/RemoveCATemplate",
       "allowedRoles": ["admin"]
     },
+   {
+      "route": "/api/AddCATemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveCAPolicy",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveApp",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/ExecAssignApp",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddChocoApp_OrchestrationStarter",
+      "allowedRoles": ["admin"]
+    },
+     {
+      "route": "/api/AddChocoApp",
+      "allowedRoles": ["admin"]
+    },
+     {
+      "route": "/api/RemoveQueuedApp",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddWinGetApp",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddOfficeApp",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddMSPApp",
+      "allowedRoles": ["admin"]
+    },    
     {
       "route": "/api/ExecSAMSetup",
       "allowedRoles": ["admin"]
     },
     {
       "route": "/api/AddStandardsDeploy",
-      "allowedRoles": ["admin"]
-    },
-    {
-      "route": "/email/spamfilter/deploy",
       "allowedRoles": ["admin"]
     },
     {
@@ -81,14 +121,6 @@
     {
       "route": "/api/ExecSendPush",
       "allowedRoles": ["admin", "editor", "readonly"]
-    },
-    {
-      "route": "/tenant/conditional/deploy",
-      "allowedRoles": ["admin"]
-    },
-    {
-      "route": "/tenant/conditional/deploy-named-location",
-      "allowedRoles": ["admin"]
     },
     {
       "route": "/api/ExecExcludeTenant",
@@ -121,7 +153,7 @@
     {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
-    }
+    }   
   ],
   "navigationFallback": {
     "rewrite": "index.html",
