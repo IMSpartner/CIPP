@@ -89,7 +89,31 @@
     {
       "route": "/api/AddMSPApp",
       "allowedRoles": ["admin"]
-    },    
+    },   
+    {
+      "route": "/api/AddAutopilotConfig",
+      "allowedRoles": ["admin"]
+    },  
+    {
+      "route": "/api/AddEnrollment",
+      "allowedRoles": ["admin"]
+    },  
+    {
+      "route": "/api/RemovePolicy",
+      "allowedRoles": ["admin"]
+    },      
+    {
+      "route": "/api/ExecAssignPolicy",
+      "allowedRoles": ["admin"]
+    },  
+    {
+      "route": "/api/AddIntuneTemplate",
+      "allowedRoles": ["admin"]
+    },  
+    {
+      "route": "/api/AddPolicy",
+      "allowedRoles": ["admin"]
+    },      
     {
       "route": "/api/ExecSAMSetup",
       "allowedRoles": ["admin"]
