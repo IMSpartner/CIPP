@@ -151,6 +151,10 @@
       "allowedRoles": ["admin"]
     },    
     {      
+      "route": "/api/RemoveSpamfilterTemplate",
+      "allowedRoles": ["admin"]
+    },    
+    {      
       "route": "/api/RemoveScheduledItem",
       "allowedRoles": ["admin"]
     },   
