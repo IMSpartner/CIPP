@@ -162,7 +162,23 @@
       "route": "/api/AddScheduledItem",
       "allowedRoles": ["admin"]
     },   
-    {
+    {      
+      "route": "/api/ExecMailTest",
+      "allowedRoles": ["admin"]
+    },   
+    {      
+      "route": "/api/RemoveCippQueue",
+      "allowedRoles": ["admin"]
+    },   
+    {      
+      "route": "/api/EditTenant",
+      "allowedRoles": ["admin"]
+    },   
+    {      
+      "route": "/api/DomainAnalyser_OrchestrationStarter",
+      "allowedRoles": ["admin"]
+    },   
+   {
       "route": "/LogoutRedirect",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
