@@ -123,6 +123,34 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/AddTransportRule",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddTransportTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddExConnector",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveExConnectorTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveSpamFilter",
+      "allowedRoles": ["admin"]
+    },
+    {      
+      "route": "/api/AddSpamfilterTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {      
+      "route": "/api/AddSpamfilter",
+      "allowedRoles": ["admin"]
+    },    
+    {
       "route": "/LogoutRedirect",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
