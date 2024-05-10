@@ -24,215 +24,215 @@
     },
     {
       "route": "/api/AddCAPolicy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddNamedLocation",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddAlert",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveWebhookAlert",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
    {
       "route": "/api/RemoveQueuedAlert",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/ExecStandardsRun",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveCATemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
    {
       "route": "/api/AddCATemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveCAPolicy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/ExecAssignApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddChocoApp_OrchestrationStarter",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
      {
       "route": "/api/AddChocoApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
      {
       "route": "/api/RemoveQueuedApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddWinGetApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddOfficeApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddMSPApp",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {
       "route": "/api/AddAutopilotConfig",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },  
     {
       "route": "/api/AddEnrollment",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },  
     {
       "route": "/api/RemovePolicy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },      
     {
       "route": "/api/ExecAssignPolicy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },  
     {
       "route": "/api/AddIntuneTemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },  
     {
       "route": "/api/AddPolicy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },      
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddStandardsDeploy",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddTransportRule",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddTransportTemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/AddExConnector",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveExConnectorTemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/RemoveSpamFilter",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {      
       "route": "/api/AddSpamfilterTemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {      
       "route": "/api/AddSpamfilter",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },    
     {      
       "route": "/api/RemoveSpamfilterTemplate",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },    
     {      
       "route": "/api/RemoveScheduledItem",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {      
       "route": "/api/AddScheduledItem",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {      
       "route": "/api/ExecMailTest",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {      
       "route": "/api/RemoveCippQueue",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {      
       "route": "/api/EditTenant",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
     {      
       "route": "/api/DomainAnalyser_OrchestrationStarter",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },   
    {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "deployadmin", "editor"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "deployadmin", "editor"]
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["deployadmin"]
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "deployadmin", "editor"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "deployadmin", "editor"]
     },
     {
       "route": "/cipp/*",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["admin", "deployadmin"]
     },
     {
       "route": "/tenant/standards/*",
-      "allowedRoles": ["admin"]
+      "allowedRoles": ["admin", "deployadmin"]
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader"]
     }   
   ],
   "navigationFallback": {
