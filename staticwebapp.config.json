@@ -24,215 +24,251 @@
     },
     {
       "route": "/api/AddCAPolicy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddNamedLocation",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddAlert",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/RemoveWebhookAlert",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
    {
       "route": "/api/RemoveQueuedAlert",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/ExecStandardsRun",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/RemoveCATemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
+    {
+      "route": "/api/ExecOnboardTenant",
+      "allowedRoles": ["cloudteam"]
+    },
+    {
+      "route": "/api/ExecOffboardTenant",
+      "allowedRoles": ["cloudteam"]
+      },
    {
       "route": "/api/AddCATemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/RemoveCAPolicy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/RemoveApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },
     {
       "route": "/api/ExecAssignApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },
     {
       "route": "/api/AddChocoApp_OrchestrationStarter",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
      {
       "route": "/api/AddChocoApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
      {
       "route": "/api/RemoveQueuedApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },
     {
       "route": "/api/AddWinGetApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },
     {
       "route": "/api/AddOfficeApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddMSPApp",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
     {
       "route": "/api/AddAutopilotConfig",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },  
     {
       "route": "/api/AddEnrollment",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },  
     {
       "route": "/api/RemovePolicy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
+    },      
+    {
+      "route": "/api/AddTenantAllowBlockList",
+      "allowedRoles": ["cloudteam", "engineer"]
     },      
     {
       "route": "/api/ExecAssignPolicy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },  
     {
       "route": "/api/AddIntuneTemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },  
     {
       "route": "/api/AddPolicy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },      
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
+      "route": "/api/AddStandardsTemplate",
+      "allowedRoles": ["cloudteam"]
+    },
+    {
+      "route": "/api/AddDefenderDeployment",
+      "allowedRoles": ["cloudteam"]
+      },
+    {
       "route": "/api/AddStandardsDeploy",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddTransportRule",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
+    },
+    {
+      "route": "/api/RemoveTransportRule",
+      "allowedRoles": ["cloudteam", "engineer"]
+    },
+    {
+      "route": "/api/RemoveTransportRuleTemplate",
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddTransportTemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/AddExConnector",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
+    },
+    {
+      "route": "/api/AddEXConnectorTemplate",
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/RemoveExConnectorTemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
+      "route": "/api/RemoveIntuneTemplate",
+      "allowedRoles": ["cloudteam"]
+      },
+    {
       "route": "/api/RemoveSpamFilter",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {      
       "route": "/api/AddSpamfilterTemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {      
       "route": "/api/AddSpamfilter",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },    
     {      
       "route": "/api/RemoveSpamfilterTemplate",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },    
     {      
       "route": "/api/RemoveScheduledItem",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
     {      
       "route": "/api/AddScheduledItem",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
     {      
       "route": "/api/ExecMailTest",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },   
     {      
       "route": "/api/RemoveCippQueue",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
     {      
       "route": "/api/EditTenant",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
     {      
       "route": "/api/DomainAnalyser_OrchestrationStarter",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },   
    {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "deployadmin", "editor"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "deployadmin", "editor"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk"]
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
-      "allowedRoles": ["deployadmin"]
+      "allowedRoles": ["cloudteam"]
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "deployadmin", "editor"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "deployadmin", "editor"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk"]
     },
     {
       "route": "/cipp/*",
-      "allowedRoles": ["admin", "deployadmin"]
+      "allowedRoles": ["engineer", "cloudteam"]
     },
     {
       "route": "/tenant/standards/*",
-      "allowedRoles": ["admin", "deployadmin"]
+      "allowedRoles": ["engineer", "cloudteam"]
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "deployadmin", "editor", "readonly", "reader"]
+      "allowedRoles": ["engineer", "cloudteam", "servicedesk", "readonly", "reader"]
     }   
   ],
   "navigationFallback": {
