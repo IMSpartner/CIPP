@@ -28,7 +28,7 @@
     },
     {
       "route": "/api/AddNamedLocation",
-      "allowedRoles": ["cloudteam"]
+      "allowedRoles": ["cloudteam", "engineer"]
     },
     {
       "route": "/api/AddAlert",
